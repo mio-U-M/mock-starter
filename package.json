@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm dist/* ; npx parcel src/index.html --open",
-    "build": "rm public/* ; npx parcel build src/index.html -d public"
+    "start": "rm dist/* ; npx parcel src/index.pug --open",
+    "build": "rm public/* ; npx parcel build src/index.pug -d public"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "autoprefixer": "^9.8.4",
     "parcel": "^1.12.4",
+    "pug": "^3.0.0",
     "sass": "^1.26.9"
   }
 }
