@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx parcel src/index.html --open",
+    "build": "npx parcel build src/index.html -d public"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/mio-U-M/mock-starter/issues"
   },
-  "homepage": "https://github.com/mio-U-M/mock-starter#readme"
+  "homepage": "https://github.com/mio-U-M/mock-starter#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "parcel": "^1.12.4",
+    "sass": "^1.26.9"
+  }
 }
