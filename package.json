@@ -21,7 +21,7 @@
   "devDependencies": {
     "autoprefixer": "^9.8.4",
     "parcel": "^1.12.4",
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "sass": "^1.26.9"
   }
 }
