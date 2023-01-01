@@ -20,7 +20,7 @@
   "homepage": "https://github.com/mio-U-M/mock-starter#readme",
   "devDependencies": {
     "autoprefixer": "^9.8.4",
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.2",
     "pug": "^3.0.0",
     "sass": "^1.26.9"
   }
